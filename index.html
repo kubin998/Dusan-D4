@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <title>D4</title>
+</head>
+<body>
+    <a-scene>
+        <a-assets>
+            <a-asset-item id="anatomia" src="./D4.gltf"></a-asset-item>
+          </a-assets>
+          <a-gltf-model src="#anatomia"position="-2.842 -3.876 6.180"scale="3 3 3"></a-gltf-model>
+        <a-entity camera look-controls wasd-controls="acceleration:100" position="0 5.000 0"></a-entity>
+        <a-video width="16" height="9" position="-0.015 -12.551 -0.563" rotation="90.000 1.770 0.000" src="FINAL Prueba 4.mp4"></a-video>
+        <a-sky src="./risa.mp4"></a-sky>
+</body>
+</html>
